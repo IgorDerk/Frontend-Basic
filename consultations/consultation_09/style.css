@@ -1,0 +1,33 @@
+.btn {
+  border: none;
+  background-color: lightblue;
+  color: white;
+  display: inline;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.left {
+  background-color: lightblue;
+  color: white;
+  display: inline;
+  padding: 10px;
+  margin-right: 0;
+  border: 1px solid black;
+  border-radius: 10px 0 0 10px;
+}
+
+.right {
+    background-color: lightblue;
+    color: white;
+    display: inline;
+    padding: 10px;
+    margin-left: 0;
+    border: 1px solid black;
+    border-radius: 0 10px  10px 0;
+}
+
+.btn-container{
+    font-size: 0;
+}
