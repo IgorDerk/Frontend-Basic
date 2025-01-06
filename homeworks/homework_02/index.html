@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal information</title>
+  </head>
+  <body>
+    <h1>Personal information</h1>
+    <img
+      id="img"
+      src="./image/Gluecklich laecheln.jpg"
+      alt="Photo of a person"
+      width="300px"
+    />
+    <form>
+      <br />
+      <div>
+        <label for="name">Name:</label>
+        <input
+          type="text"
+          id="name"
+          placeholder="Enter your name..."
+          required
+        />
+      </div>
+      <br />
+      <div>
+        <label for="surname">Surname:</label>
+        <input
+          type="text"
+          id="surname"
+          placeholder="Enter your surname..."
+          required
+        />
+      </div>
+      <br />
+      <div>
+        Gender:
+        <input id="male" name="gender" type="radio" value="male" required />
+        <label for="male">Male</label>
+        <input id="female" name="gender" type="radio" value="female" required />
+        <label for="female">Female</label>
+      </div>
+      <br />
+      <div>
+        <label for="email">Email:</label>
+        <input
+          type="email"
+          id="email"
+          placeholder="Enter your email..."
+          required
+        />
+      </div>
+      <br />
+      <div>
+        <label for="telephone">Telephone:</label>
+        <input
+          type="tel"
+          id="telephone"
+          placeholder="Enter your telephone..."
+          required
+        />
+      </div>
+      <br />
+      <div>
+        <label for="dateOfBirth">Date of birth:</label>
+        <input type="date" id="dateOfBirth" required />
+      </div>
+      <br />
+      <div>
+        <label for="city">City:</label>
+        <select id="city" required>
+          <option value="" >Choose your city:</option>
+          <option value="rostock" >Rostock</option>
+          <option value="schwaebischHall">Schwaebisch Hall</option>
+          <option value="freiburg">Freiburg</option>
+        </select>
+      </div>
+      <br />
+      <div>
+        <button type="submit">Save</button>
+        <input type="reset" />
+      </div>
+    </form>
+  </body>
+</html>
